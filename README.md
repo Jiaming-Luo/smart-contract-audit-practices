@@ -1,21 +1,49 @@
-# Smart Contract Security & Auditing Practices 🛡️
+# Smart Contract Security Learning Practice 🛡️
 
-This repository contains my hands-on smart contract security reviews, vulnerability analysis, proof-of-concept (PoC) exploit scripts, and standardized audit reports using **Foundry**.
+This repository documents my ongoing learning and hands-on practice in Solidity, Foundry, and smart contract security fundamentals.
 
----
-
-## 📂 Audit Projects & Reports
-
-| Project | Vulnerabilities & Topics | Audit Report / PoC |
-| :--- | :--- | :--- |
-| **PasswordStore** | Private variable visibility, logic flaws | *(In Progress)* |
-| **Puppy Raffle** | Reentrancy, Denial of Service (DoS), Weak PRNG | *(In Progress)* |
-| **TSwap** | AMM logic, Oracle Manipulation, Slippage | *(In Progress)* |
-| **Thunder Loan** | Flash Loans, Price Manipulation, State Desync | *(In Progress)* |
+The materials are part of my learning process rather than professional security audits.
 
 ---
 
-## 🛠️ Tools & Frameworks
-- **Framework**: Foundry (`forge test`, `cast`, Fuzzing/Invariant Testing)
-- **Languages**: Solidity, Yul
-- **Static Analysis**: Slither, Aderyn
+## Current Practice
+
+### Core Vulnerability Notes
+Learning notes and practice covering common smart contract security concepts such as:
+
+- Reentrancy
+- Access Control
+- Oracle-related risks
+- Other common Solidity security patterns
+
+### PasswordStore
+Solidity contract and Foundry test practice focusing on contract logic and security fundamentals.
+
+### Puppy Raffle
+Solidity and Foundry practice involving more complex smart contract behaviour and security-related testing.
+
+---
+
+## Tools Currently Used
+
+- Solidity
+- Foundry
+- Git / GitHub
+
+---
+
+## Current Status
+
+This repository is an **active learning project**.
+
+My current focus is on building a solid understanding of:
+
+- Solidity contract logic
+- Smart contract testing
+- Access control
+- Reentrancy
+- State changes and revert behaviour
+- ERC-20 fundamentals
+- OpenZeppelin
+
+Additional security topics and projects will be added as my learning progresses.
